@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.horizontal-scrollable > .row {
+  overflow-x: auto;
+}
+
+.horizontal-scrollable > .row > .col-xs-4 {
+  display: inline-block;
+  float: none;
+}
+
+.dot {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 2em;
+  margin-right: 5px;
+  text-align: center;
+  width: 2em;
+}
+
+.jumbotron-fluid {
+  background-image: url("./images/React_Banner.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.contenedor-info {
+  background-color: rgba(52, 58, 64, 0.85);
+}
+
+.dropdown-menu {
+  min-width: 16rem !important;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #212529;
+  text-decoration: none;
+  background-color: transparent;
+}
+.card:hover {
+  cursor: pointer;
+}
